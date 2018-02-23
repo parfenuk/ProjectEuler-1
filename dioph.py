@@ -146,7 +146,7 @@ def pell_bf(d, n, max_x):
   sols.sort()
   return sols
 
-# Find solutions to a.x^2-b.y^2=c^2
+# Find solutions to a.x^2-b.y^2=c
 def quad_s(a, b, c, max_x):
   res = []
   for x, y in pell_bf(a*b, a*c, a*max_x):
